@@ -14,5 +14,6 @@ public class Part2_Exceptions {
         } catch (Throwable e) {
             System.out.println("Перехвачено исключение: " + e.getMessage());
         }
+        // new RuntimeException("Выброшенное исключение");
     }
 }

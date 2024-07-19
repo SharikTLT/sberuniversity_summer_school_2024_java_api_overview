@@ -1,5 +1,8 @@
 package e1.lang;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Классы обертки
  */
@@ -12,6 +15,9 @@ public class Part1_Wrappers {
         //Примитивный тип
         boolean primitiveBoolean = true;
 
+        int primitiveInt = 1;
+        Integer wrappedInteger = 1;
+
         //Unboxing
         assert(wrappedBoolean == primitiveBoolean);
 
@@ -20,5 +26,16 @@ public class Part1_Wrappers {
 
         //Unboxing
         primitiveBoolean = wrappedBoolean;
+
+        int[] intArray = new int[]{1, 2, 3};
+
+        List objectList = new ArrayList();
+
+        objectList.add(wrappedBoolean);
+        objectList.add(primitiveBoolean);
+
+
+
+
     }
 }

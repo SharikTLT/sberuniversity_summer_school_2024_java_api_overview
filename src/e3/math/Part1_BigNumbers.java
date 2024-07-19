@@ -22,5 +22,6 @@ public class Part1_BigNumbers {
         System.out.printf("1 - 0.1 - 0.1 = %s %n", bigDecimal);
         System.out.printf("Второе число = %s %n", second);
         System.out.printf("Первое число эквивалентно второму: %s %n", bigDecimal.compareTo(second));
+        System.out.printf("Пример с float: %f %n", 1.0 - 0.1 - 0.1);
     }
 }

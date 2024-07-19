@@ -6,8 +6,8 @@ import java.util.*;
 public class Part1_Collections {
 
     public static void main(String[] args) {
-        list();
-        set();
+        //list();
+        //set();
         map();
     }
 
